@@ -1,0 +1,36 @@
+.color-converter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	max-width: 500px;
+	width: 100%;
+	min-height: 300px;
+
+	margin: 0 auto;
+	margin-top: 50px;
+
+	padding: 15px;
+
+	border: 1px solid #000000;
+
+	box-sizing: border-box;
+}
+
+.color-converter h2 {
+	min-height: 20px;
+
+	width: 150px;
+
+	margin-top: 10px;
+
+	background-color: rgba(00, 00, 00, 0.5);
+
+	border: 1px solid #000000;
+
+	text-align: center;
+	color: #ffffff;
+	font-family: sans-serif;
+	font-size: 15px;
+}
