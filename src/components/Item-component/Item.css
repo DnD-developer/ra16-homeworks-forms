@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200);
+
+.item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	margin-top: 10px;
+
+	width: 100%;
+}
+
+.item:first-child {
+	margin-top: 0;
+}
+
+.item__date,
+.item__length {
+	margin: 0;
+	padding-left: 15px;
+
+	font-size: 15px;
+	font-family: sans-serif;
+	font-weight: 400;
+}
+
+.item__buttons {
+	display: flex;
+
+	padding-right: 10px;
+}
+
+.item__buttons-delete,
+.item__buttons-edit {
+	display: block;
+
+	background: none;
+
+	border: none;
+
+	cursor: pointer;
+}
+
+.item__buttons-delete {
+	margin-left: 10px;
+}
+
+.item .material-symbols-outlined {
+	font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+
+	font-size: 20px;
+}

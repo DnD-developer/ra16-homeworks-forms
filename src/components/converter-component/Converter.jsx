@@ -15,7 +15,7 @@ function colorDisplay(input) {
 
 export default function Converter({ render }) {
 	const [hexInput, setHexInput] = useState({
-		input: "",
+		input: "#",
 		text: "",
 		color: "#ffffff"
 	})
@@ -23,7 +23,7 @@ export default function Converter({ render }) {
 	const onChange = input => {
 		const reg = /^#[\w\d]*$/i
 		const validation = prev => {
-			if (reg.test(input)) {
+			if (reg.test(input) && input.length <= 7) {
 				if (input.length === 7) {
 					const { text, color } = colorDisplay(input)
 
